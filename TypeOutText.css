@@ -1,0 +1,13 @@
+.lineCursor{
+  animation: blink 1s step-start infinite;
+
+  width: 1px;
+	height: 100%;
+	background-color: black;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}

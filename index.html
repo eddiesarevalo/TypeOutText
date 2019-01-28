@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Type Out Text</title>
+  <link rel="stylesheet" href="TypeOutText.css">
+</head>
+
+<body>
+
+  <h1 class="siteTitle">Type Out Text</h1>
+  <p>
+    Hello! Welcome to type out text. This is a bare bones application that will take some text and animate typing it out.
+  </p>
+
+  <h3>Instructions:</h3>
+  <ol>
+    <li>Type some text into the input below.</li>
+    <li>Press the "Type!" button</li>
+  </ol>
+
+  <button id="typeButton">Type!</button><br>
+  <input id="textInput" placeholder="Hello World!" value="Hello World!"></input>
+
+  <h3>Result:</h3>
+  <div id="resultContainer">
+    <span id="typingResults"></span><span class="lineCursor">|</span>
+  </div>
+
+  <script src="TypeOutText.js"></script>
+</body>
+
+</html>
